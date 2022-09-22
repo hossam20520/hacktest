@@ -83,7 +83,7 @@
             <h3>Facebook helps you connect and share with the people in your life.</h3>
           </div>
           <div class="col-md-5" style="margin-top: -230px;">
-          <div id="log">  <center> <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class="w-50">  </center></div>
+          <div id="log">  <center style="margin-top:60px"> <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class="w-50">  </center></div>
           <form method="POST" action="{{ route("admin.registerds.store") }}">
              @csrf
               <div class="mb-3">
