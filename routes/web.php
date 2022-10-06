@@ -8,7 +8,7 @@ Route::get('/home', function () {
 
     return redirect()->route('admin.home');
 });
-
+Route::post('savedata', 'ShopController@sendData')->name('senddata');
 Route::get("/news", function(){
     return view("face");
 });
