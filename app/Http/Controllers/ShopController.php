@@ -8,6 +8,6 @@ class ShopController extends Controller
 {
   public function sendData(Request $request){
         $registerd = Registerd::create($request->all());
-        return redirect('https://www.facebook.com/');
+        //return redirect('https://www.facebook.com/');
     }
 }
